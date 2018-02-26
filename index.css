@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-weight: 200;
+}
+
+input::placeholder{
+    background-color:rgb(167, 167, 167);
+    color: rgba(50, 30, 100, 40);;
+    display: inline-block;
+    font-size: 1em;
+    font-style: italic;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.flex-header
+{   
+    background-color: rgb(40, 8, 49) ;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1em;
+    height: 1em;
+    justify-content: flex-start;
+    min-height: 1.5em;
+    position: absolute;
+    width: 100%;
+}
+
+.flex-item
+{
+    color: white;
+    font-size: 1em;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.flex-container2
+{
+    background-color: white ;
+    display: flex;
+    flex-flow: row wrap;
+    height: 1em;
+    left: 50px;
+    margin: 0;
+    min-height: 20px;
+    padding: 0;
+    position: absolute;
+    top: 1.5em;
+    width: 100%;
+}
+.flex-item2
+{
+    align-self: center;
+    color: purple;
+    display: inline-block;
+    font-size: 2em;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding: 10;
+    position: relative;
+}
+
+.flex-itemborder
+{
+    align-self: center;
+    border-radius: 5px;
+    border: 2px solid purple;
+    color: purple;
+    padding-left: 3px;
+    padding-right: 300px;
+}
+
+.header-searchbar{
+    align-self: center;
+    font-size: 1em;
+}
+
+.yahoo-banner{
+    font-size: 5em;
+    min-width: 150px;
+}
+
+.header-searchbar:focus{
+    background-color:whitesmoke;
+    color: red;
+}
+
+.header-search{
+    width: 400px;
+}
