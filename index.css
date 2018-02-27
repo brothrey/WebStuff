@@ -56,7 +56,7 @@ a:active {
     display: flex;
     flex-flow: row wrap;
     height: 1em;
-    left: 50px;
+    left: 4em;
     margin: 0;
     min-height: 20px;
     padding: 0;
@@ -70,7 +70,7 @@ a:active {
     color: purple;
     display: inline-block;
     font-size: 2em;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-right: 50px;
     padding: 10;
     position: relative;
@@ -92,7 +92,8 @@ a:active {
 }
 
 .yahoo-banner{
-    font-size: 5em;
+    font-size: 4.5em;
+    color:  rgb(40, 8, 49);
     min-width: 150px;
 }
 
@@ -101,6 +102,25 @@ a:active {
     color: red;
 }
 
-.header-search{
-    width: 400px;
+.flex-headersearch{
+    width: 400px;   
+    position:relative;
+    padding: 10;
+    top:1.5em;
+
+}
+.button {
+    background-color:purple; 
+    border: none;
+    color: white;
+    padding: 3;
+    min-height:0.2em;
+    
+    align-self: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    position:relative;
+    top:1.4em;
+
 }
