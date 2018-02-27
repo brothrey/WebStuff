@@ -4,24 +4,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="searchHeader.css">
+    <link rel="stylesheet" type="text/css" href="topHeader.css">
     <title>Yahoo!</title>
 </head>
 <body>
-    <div class="flex-header">
-            <a href="#" class="flex-item">Acasa</a>
-            <a href="#" class="flex-item">Mail</a>
-            <a href="#" class="flex-item">Stiri</a>
-            <a href="#" class="flex-item">Sport</a>
-            <a href="#" class="flex-item">Flickr</a>
-            <a href="#" class="flex-item">Answers</a>
+    <!-- <div class="flex-header">
+        <a href="#" class="flex-item">Acasa</a>
+        <a href="#" class="flex-item">Mail</a>
+        <a href="#" class="flex-item">Stiri</a>
+        <a href="#" class="flex-item">Sport</a>
+        <a href="#" class="flex-item">Flickr</a>
+        <a href="#" class="flex-item">Answers</a>
+    </div> -->
+    <div class='top-header'>
+        <a href="#" class='top-header-button'>Acasa</a>
+        <a href="#" class='top-header-button'>Mail</a>
+        <a href="#" class='top-header-button'>Stiri</a>
+        <a href="#" class='top-header-button'>Sport</a>
+        <a href="#" class='top-header-button'>Flickr</a>
+        <a href="#" class='top-header-button'>Answers</a>
     </div>
 
-    <div class="flex-container2">
-            <div class="yahoo-banner" onclick="window.location='http://google.com';">YAHOO!</div>
-            <input type = "text"  class='flex-headersearch'>
-            <div class="button" onclick="window.location='http://google.com';"> Search</div>
-            <a href = "#"><div style = 'float: right' class="flex-item2">Autentificare</div></a>
-            <a href = "#"><div style = 'float: right ' class="flex-item2">Posta</div></a>
+    <div class='header-wrapper'>
+        <div class='header-wrapper-banner' onclick='window.alert("dick")'>YAHOO!</div>
+        <div class='header-wrapper-search'>
+            <input type='text' class='header-wrapper-search-input' />
+            <button class='header-wrapper-search-button'>Search</button>
+        </div>
+        <div class='header-wrapper-login-mail'>
+            <button class='header-wrapper-login'>Autentificare</button>
+            <button class='header-wrapper-mail'>Mail</button>
+        </div>
     </div>
 </body>
 </html>
