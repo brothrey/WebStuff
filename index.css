@@ -124,3 +124,7 @@ a:active {
     top:1.4em;
 
 }
+.button:hover{
+    background-color:  rgb(40, 8, 49);
+    color: white;
+}
