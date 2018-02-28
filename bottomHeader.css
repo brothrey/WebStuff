@@ -1,0 +1,33 @@
+.bottom-header{
+    width: 100%;
+    padding: 14px 0px 10px 22px;
+    height: 22px;
+    position: fixed;
+    top: 6em;
+    display:flex;
+    flex-flow: row wrap;
+    z-index:4;
+    background-color:white;
+}
+.bottom-header-button{
+    font-size:14px;
+    color:black;
+    padding: 0 15px;
+}
+.bottom-header-button:link {
+    text-decoration: none;
+    color: rgb(96, 1, 210);;
+}
+
+.bottom-header-button:visited {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.bottom-header-button:hover {
+    text-decoration: underline;
+}
+
+.bottom-header-button:active {
+    text-decoration: underline;
+}
