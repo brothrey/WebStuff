@@ -15,10 +15,11 @@
     /* background-color:red; */
     display:flex;
     flex-flow: column wrap;
-    justify-content:space-between;
+    justify-content:space-between;        
 }
 .news-piece{
     height:20%;
+    overflow:hidden;     
 }
 .weather-side{
     width:35%;
