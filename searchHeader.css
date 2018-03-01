@@ -5,7 +5,7 @@
     top: 1em;
     position: fixed;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     z-index:4;
     background-color:white;
 }
@@ -17,15 +17,20 @@
     vertical-align: middle;
     text-align: center;
     line-height: 46px;  
+    position:relative;
+    left:40px;
 }
 .header-wrapper-search{
+    width:40%;
     height: 100%;
+    position:relative;
+    left:200px;
     }
 .header-wrapper-search-input{
     padding: 1px 10px;
     height: 100%;
-    width: 80%;
-    box-shadow:0px  0px 1px yellow;
+    width: 90%;
+    box-shadow:0px  0px 1px darkgray;
     border-width: 1px;
     border-right-color: blue;
     border-radius:2px;
@@ -34,7 +39,7 @@
     box-shadow:none;
 }
 .header-wrapper-search-button{
-    width:calc(20% - 4px);
+    width:calc(10% - 4px);
     border:0;
     background-color:blue;
     padding: 0;
@@ -50,6 +55,8 @@
 }
 
 .header-wrapper-login-mail{
+    position:relative;
+    left:300px;
     margin-top: 6;
     
 }
