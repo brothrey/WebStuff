@@ -8,6 +8,7 @@
     flex-flow: row wrap;
     z-index:4;
     background-color:white;
+    margin-left:60px;   
 }
 .bottom-header-button{
     font-size:14px;

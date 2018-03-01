@@ -7,6 +7,7 @@
     display:flex;
     flex:row;
     padding:10px 0 10px 0;
+    margin-left:70px;
 }
 .news-side{
     width:65%;
@@ -22,7 +23,7 @@
     overflow:hidden;     
 }
 .weather-side{
-    width:35%;
+    width:25%;
     height:50%;
     position:relative;
     padding:10px;
